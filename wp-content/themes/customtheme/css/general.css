@@ -1,0 +1,194 @@
+/* GENERAL */
+
+body {
+  min-width: 300px;
+  color: #FFF;
+	background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400; /* regular */
+  font-size: 62.5%; /* 10px */
+  line-height: 1.2;
+  overflow: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: 'liga', 'kern';
+  -webkit-font-feature-settings: "lnum";
+	-moz-font-feature-settings: "lnum";
+	font-feature-settings: "lnum";
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html.zh_TW body {
+  font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
+}
+html.zh_CN body {
+  font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
+}
+body.small {
+	font-size: 46.875%;
+}
+body.large {
+	font-size: 78.125%;
+}
+body.small .main-menu ul > li,
+body.small .footer-sitemap > ul > li {
+	font-size: 7.5px;
+}
+body.large .main-menu ul li,
+body.large .footer-sitemap > ul > li {
+	font-size: 12.5px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+a {
+	color: #5284CF; /* #06F */
+  text-decoration: none;
+}
+p {
+  margin-bottom: 1em;
+  font-size: 1.8em;
+  line-height: 1.4;
+  text-align: justify;
+}
+p.small {
+	font-size: 1.3em;
+}
+p.center {
+	text-align: center;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+p a, li a {
+	color: #418ae4;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+.content table {
+	width: 100%;
+	table-layout: fixed;
+}
+.content td, .content th {
+	/* padding: 5px 10px;
+	border: 1px solid #CCC; */
+	padding: 0 0 10px 0;
+	font-size: 1.8em; /* 1.6 */
+	vertical-align: top;
+	text-align: left;
+}
+input[type="text"], input[type="email"],
+input[type="submit"], textarea {
+	-webkit-appearance: none;
+}
+strong {
+	font-weight: 700;
+}
+em {
+	font-style: italic;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+span.description {
+	color: transparent;
+	font: 0/0 a;
+}
+.content ul {
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+.content ul,
+.content ul ul ul,
+.content ul ul ul ul ul {
+	list-style: outside disc;
+}
+.content ul ul,
+.content ul ul ul ul,
+.content ul ul ul ul ul ul {
+	list-style: outside circle;
+}
+.content ol {
+  list-style: outside decimal;
+  margin-left: 1.5em;
+  margin-bottom: 2em;
+}
+.content ul ul, .content ol ol,
+.content ul ol, .content ol ul {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+.content li {
+  margin-bottom: 1em;
+  font-size: 1.8em; /* 1.6 */
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.content li p, .content p li, .content p p,
+.content li li, .content th p, .content td p,
+.content th li, .content td li {
+  font-size: 1em;
+}
+.content th ul, .content th ol,
+.conten td ul, .content td ol {
+	margin-left: 1em;
+}
+
+.container {
+	width: 100%;
+	min-width: 300px;
+}
+.wrapper {
+	width: 90%;
+	/* max-width: 1300px; */
+	margin: 0 auto;
+}
+
+.video-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.map-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 21%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object,
+.video-container embed, .video-container video,
+.map-container iframe, .map-container object,
+.map-container embed {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.video-container p {
+	color: transparent;
+	font: 0/0 a;
+}
